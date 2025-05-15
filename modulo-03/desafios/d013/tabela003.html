@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 13</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: auto;
+        }
+
+        .cabecalho {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            background-color: #686868;
+            color: white;
+            font-weight: bolder;
+        }
+
+        .valor-medio {
+            border: 1px solid black;
+            text-align: left;
+            padding: 10px;
+            background-color: #686868;
+            color: white;
+            font-weight: bolder;
+        }
+
+        th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabela 3 do desafio 13</h1>
+    <table aria-label="Tabela de notas e médias por área e disciplina">
+        <thead>
+            <tr>
+                <th class="cabecalho" scope="col" rowspan="2">Área</th>
+                <th class="cabecalho" scope="col" rowspan="2">Disciplinas</th>
+                <th class="cabecalho" scope="colgroup" colspan="2">Notas</th>
+                <th class="cabecalho" scope="col" rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th class="cabecalho">Nota 1</th>
+                <th class="cabecalho">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="4">Exatas</th>
+                <td>Matemática</td>
+                <td>8.5</td>
+                <td>7.0</td>
+                <td>7.75</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>6.0</td>
+                <td>6.5</td>
+                <td>6.25</td>
+            </tr>
+            <tr>
+                <td>Química</td>
+                <td>7.5</td>
+                <td>8.0</td>
+                <td>7.75</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>9.0</td>
+                <td>8.5</td>
+                <td>8.75</td>
+            </tr>
+            <tr>
+                <th class="valor-medio" scope="row" colspan="4">Média de Exatas</th>
+                <td class="valor-medio">7.63</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="2">Humanas</th>
+                <td>História</td>
+                <td>8.0</td>
+                <td>7.5</td>
+                <td>7.75</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>6.5</td>
+                <td>7.0</td>
+                <td>6.75</td>
+            </tr>
+            <tr>
+                <th class="valor-medio" scope="row" colspan="4">Média de Humanas</th>
+                <td class="valor-medio">7.25</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
