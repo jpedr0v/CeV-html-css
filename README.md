@@ -11,7 +11,7 @@ Acompanhe as videoaulas no [Curso em Vídeo](https://www.youtube.com/c/CursoemVi
 
 ## Progresso 🚀
 
-Módulos: 04/05.
+![](https://geps.dev/progress/90)
 
 ## Status 🌱
 
