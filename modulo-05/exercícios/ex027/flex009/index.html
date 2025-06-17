@@ -8,25 +8,25 @@
         div.container {
             background-color: lightsalmon;
             display: flex;
-            flex-direction: row-reverse;
+            flex-flow: row nowrap;
         }
 
         div.item {
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
-            padding: 10px;
+            flex-basis: 150px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="item">A</div>
-        <div class="item">B</div>
+        <div class="item">Outro conteúdo.</div>
         <div class="item">C</div>
-        <div class="item">D</div>
+        <div class="item">Conteúdo um pouco maior.</div>
         <div class="item">E</div>
-        <div class="item">F</div>
+        <div class="item">Conteúdo maior ainda, que via ocupar mais espaço.</div>
         <div class="item">G</div>
     </div>
 </body>
